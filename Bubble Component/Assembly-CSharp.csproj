@@ -63,6 +63,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\BubbleMovement.cs" />
+    <Compile Include="Assets\Scripts\CreateBubble.cs" />
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>C:/Users/Aoife Powders/Desktop/RWM1920-C00218374/Bubble Component/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>

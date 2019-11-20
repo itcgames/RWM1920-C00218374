@@ -11,41 +11,67 @@ public class BubbleMovement : MonoBehaviour
     float timer = 0;
     public float maxTime;
 
-    public string playerName;
+    public string playerTag;
     GameObject player;
+
+    public Vector3 bubbleSize;
+    public Vector3 blowSpeed;
+
+    public AudioClip bubPopClip;
+    AudioSource bubPopSource;
 
     //move the bubble up 
     void Start()
     {
         GetComponent<Rigidbody2D>().AddForce(Vector3.up * speed);
         startTimer = true;
+
+        bubPopSource = this.GetComponent<AudioSource>();
+        
     }
 
     // Once the destination is reached destroy the bubble
     void Update()
     {
+        //time taken before bubble pops
         if (startTimer)
         {
             time();
         }
         if (timer >= maxTime)
         {
+
+            bubPopSource.Play();
             Destroy(gameObject);
+        }
+
+        //blowing up the bubble
+        if (transform.localScale != bubbleSize)
+        {
+            transform.localScale += blowSpeed;
         }
     }
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.name != playerName)
+        if (this.transform.childCount <= 0)
         {
-            Destroy(gameObject);
+            if (other.tag != playerTag && other.tag != "Bubble")
+            {
+                bubPopSource.Play();
+                Destroy(gameObject);
+            }
+            else if (other.tag != "Bubble")
+            {
+                player = other.gameObject;
+                player.transform.SetParent(this.transform);
+                player.GetComponent<Rigidbody2D>().isKinematic = true;
+                player.transform.localPosition = this.transform.position;
+            }
         }
         else
         {
-            player = other.gameObject;
-            player.transform.SetParent(this.transform);
-            player.GetComponent<Rigidbody2D>().isKinematic = true;
-            player.transform.localPosition = this.transform.position;
+            return;
         }
     }
 
