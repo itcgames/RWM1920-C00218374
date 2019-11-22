@@ -40,7 +40,6 @@ public class BubbleMovement : MonoBehaviour
         }
         if (timer >= maxTime)
         {
-
             bubPopSource.Play();
             Destroy(gameObject);
         }
