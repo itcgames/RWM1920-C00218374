@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 9188224178520576061}
   - component: {fileID: 9188224178520576058}
   - component: {fileID: 4063709563999433033}
+  - component: {fileID: 5434295944205621837}
   m_Layer: 0
   m_Name: Bubble
   m_TagString: Bubble
@@ -74,7 +75,8 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 21300000, guid: 2e6c699ea0177af40941ac8beed31d54, type: 3}
+  m_Sprite: {fileID: 1521451267641322145, guid: 5a85384d9f9edf246990c815d0760f79,
+    type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -118,14 +120,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cd9da8eced7e6b54c9c8f0c000538a78, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  particles: {fileID: 344817482594263622, guid: 7e599ccb5fdd5d448a68ee9768de853a,
-    type: 3}
+  particles: {fileID: 86501595489096523, guid: 7e599ccb5fdd5d448a68ee9768de853a, type: 3}
   speed: 100
-  maxTime: 10
+  maxTime: 5
   playerTag: Player
-  bubbleSize: {x: 0.1, y: 0.1, z: 0.1}
+  bubbleSize: {x: 0.2, y: 0.2, z: 0.2}
   blowSpeed: {x: 0.005, y: 0.005, z: 0.005}
-  bubPopClip: {fileID: 8300000, guid: ecedc34dff6e6ea4fa6ed0bfe8e869f0, type: 3}
 --- !u!123 &9188224178520576061
 LensFlare:
   m_ObjectHideFlags: 0
@@ -168,7 +168,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: ed7a417b0658d76469e2efdf54a8f1fc, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -254,3 +254,22 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!95 &5434295944205621837
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9188224178520576048}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 1da8eba2df10a844fa108df264637818, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
