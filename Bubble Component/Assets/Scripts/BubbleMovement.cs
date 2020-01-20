@@ -72,7 +72,7 @@ public class BubbleMovement : MonoBehaviour
                 player = other.gameObject;
                 player.transform.SetParent(this.transform);
                 player.GetComponent<Rigidbody2D>().isKinematic = true;
-                player.transform.localPosition = this.transform.position;
+                player.transform.position = this.transform.position;
             }
         }
         else
