@@ -61,13 +61,13 @@ public class BubbleMovement : MonoBehaviour
             if (other.tag != playerTag && other.tag != "Bubble")
             {
                 anim.SetBool("Pop", true);
-                if (anim.GetCurrentAnimatorStateInfo(0).IsName("bubblePop"))
-                {
+                //if (anim.GetCurrentAnimatorStateInfo(0).IsName("bubblePop"))
+                //{
                     Instantiate(particles, transform.position, transform.rotation);
                     Destroy(gameObject);
-                }
+               // }
             }
-            else if (other.tag != "Bubble")
+            else if (other.tag == playerTag)
             {
                 player = other.gameObject;
                 player.transform.SetParent(this.transform);
