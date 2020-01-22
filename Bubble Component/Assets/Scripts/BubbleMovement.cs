@@ -26,7 +26,6 @@ public class BubbleMovement : MonoBehaviour
         GetComponent<Rigidbody2D>().AddForce(Vector3.up * speed);
         anim = GetComponent<Animator>();
         startTimer = true;
-        
     }
 
     // Once the destination is reached destroy the bubble
@@ -40,11 +39,9 @@ public class BubbleMovement : MonoBehaviour
         if (timer >= maxTime)
         {
             anim.SetBool("Pop", true);
-            if (anim.GetCurrentAnimatorStateInfo(0).IsName("bubblePop"))
-            {
-                Instantiate(particles, transform.position, transform.rotation);
-                Destroy(gameObject);
-            }
+            Instantiate(particles, transform.position, transform.rotation);
+            Destroy(gameObject);
+
         }
 
         //blowing up the bubble
@@ -56,29 +53,20 @@ public class BubbleMovement : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (this.transform.childCount <= 0)
+        if (other.tag != playerTag && other.tag != "Bubble")
         {
-            if (other.tag != playerTag && other.tag != "Bubble")
-            {
-                anim.SetBool("Pop", true);
-                //if (anim.GetCurrentAnimatorStateInfo(0).IsName("bubblePop"))
-                //{
-                    Instantiate(particles, transform.position, transform.rotation);
-                    Destroy(gameObject);
-               // }
-            }
-            else if (other.tag == playerTag)
-            {
-                player = other.gameObject;
-                player.transform.SetParent(this.transform);
-                player.GetComponent<Rigidbody2D>().isKinematic = true;
-                player.transform.position = this.transform.position;
-            }
+            anim.SetBool("Pop", true);
+            Instantiate(particles, transform.position, transform.rotation);
+            Destroy(gameObject);
         }
-        else
+        else if (other.tag == playerTag)
         {
-            return;
+            player = other.gameObject;
+            player.transform.SetParent(this.transform);
+            player.GetComponent<Rigidbody2D>().isKinematic = true;
+            player.transform.position = this.transform.position;
         }
+
     }
 
     //when the bubble is destroyed instatiate particle effect
