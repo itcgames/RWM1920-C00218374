@@ -15,13 +15,13 @@ MonoBehaviour:
   m_PixelRect:
     serializedVersion: 2
     x: 0
-    y: 43
+    y: 42
     width: 1920
-    height: 997
+    height: 998
   m_ShowMode: 4
   m_Title: 
   m_RootView: {fileID: 4}
-  m_MinSize: {x: 950, y: 398}
+  m_MinSize: {x: 950, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &2
 MonoBehaviour:
@@ -39,9 +39,9 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 631
+    y: 502
     width: 554
-    height: 316
+    height: 446
   m_MinSize: {x: 102, y: 124}
   m_MaxSize: {x: 4002, y: 4024}
   m_ActualView: {fileID: 14}
@@ -69,11 +69,11 @@ MonoBehaviour:
     x: 1366
     y: 0
     width: 554
-    height: 947
+    height: 948
   m_MinSize: {x: 277, y: 198}
   m_MaxSize: {x: 4002, y: 8048}
   vertical: 1
-  controlID: 412
+  controlID: 174
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -95,8 +95,8 @@ MonoBehaviour:
     x: 0
     y: 0
     width: 1920
-    height: 997
-  m_MinSize: {x: 950, y: 398}
+    height: 998
+  m_MinSize: {x: 950, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &5
 MonoBehaviour:
@@ -136,7 +136,7 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 977
+    y: 978
     width: 1920
     height: 20
   m_MinSize: {x: 0, y: 0}
@@ -161,11 +161,11 @@ MonoBehaviour:
     x: 0
     y: 30
     width: 1920
-    height: 947
-  m_MinSize: {x: 683, y: 348}
-  m_MaxSize: {x: 12008, y: 8048}
+    height: 948
+  m_MinSize: {x: 583, y: 498}
+  m_MaxSize: {x: 14004, y: 14048}
   vertical: 0
-  controlID: 34
+  controlID: 14
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -186,11 +186,11 @@ MonoBehaviour:
     x: 0
     y: 0
     width: 1366
-    height: 947
-  m_MinSize: {x: 406, y: 348}
-  m_MaxSize: {x: 8006, y: 8048}
+    height: 948
+  m_MinSize: {x: 306, y: 498}
+  m_MaxSize: {x: 10002, y: 14048}
   vertical: 1
-  controlID: 35
+  controlID: 15
 --- !u!114 &9
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -211,11 +211,11 @@ MonoBehaviour:
     x: 0
     y: 0
     width: 1366
-    height: 669
-  m_MinSize: {x: 406, y: 224}
+    height: 670
+  m_MinSize: {x: 306, y: 224}
   m_MaxSize: {x: 8006, y: 4024}
   vertical: 0
-  controlID: 36
+  controlID: 16
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -234,7 +234,7 @@ MonoBehaviour:
     x: 0
     y: 0
     width: 404
-    height: 669
+    height: 670
   m_MinSize: {x: 202, y: 224}
   m_MaxSize: {x: 4002, y: 4024}
   m_ActualView: {fileID: 17}
@@ -260,18 +260,18 @@ MonoBehaviour:
     x: 404
     y: 0
     width: 962
-    height: 669
-  m_MinSize: {x: 204, y: 224}
+    height: 670
+  m_MinSize: {x: 104, y: 124}
   m_MaxSize: {x: 4004, y: 4024}
-  m_ActualView: {fileID: 18}
+  m_ActualView: {fileID: 16}
   m_Panes:
   - {fileID: 18}
   - {fileID: 19}
   - {fileID: 16}
   - {fileID: 20}
   - {fileID: 15}
-  m_Selected: 0
-  m_LastSelected: 2
+  m_Selected: 2
+  m_LastSelected: 0
 --- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -288,17 +288,17 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 669
+    y: 670
     width: 1366
     height: 278
-  m_MinSize: {x: 102, y: 124}
-  m_MaxSize: {x: 4002, y: 4024}
-  m_ActualView: {fileID: 22}
+  m_MinSize: {x: 232, y: 274}
+  m_MaxSize: {x: 10002, y: 10024}
+  m_ActualView: {fileID: 21}
   m_Panes:
   - {fileID: 21}
   - {fileID: 22}
-  m_Selected: 1
-  m_LastSelected: 0
+  m_Selected: 0
+  m_LastSelected: 1
 --- !u!114 &13
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -317,7 +317,7 @@ MonoBehaviour:
     x: 0
     y: 0
     width: 554
-    height: 631
+    height: 502
   m_MinSize: {x: 277, y: 74}
   m_MaxSize: {x: 4002, y: 4024}
   m_ActualView: {fileID: 23}
@@ -346,9 +346,9 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 1366
-    y: 704
+    y: 574
     width: 552
-    height: 296
+    height: 426
   m_PersistentViewDataDictionary: {fileID: 0}
   m_TestTypeToolbarIndex: 0
   m_PlayModeTestListGUI:
@@ -358,7 +358,7 @@ MonoBehaviour:
       name: Bubble Component
       fullName: Bubble Component
       resultStatus: 2
-      duration: 0.1120435
+      duration: 0.1795477
       messages: One or more child tests had errors
       output: 
       stacktrace: 
@@ -368,11 +368,11 @@ MonoBehaviour:
       isSuite: 1
       categories: []
       parentID: 
-    - id: '[C:/Users/Aoife/Desktop/RWM1920-C00218374/Bubble Component/Library/ScriptAssemblies/Tests.dll][suite]'
+    - id: '[C:/Users/Aoife Powders/Desktop/RWM1920-C00218374/Bubble Component/Library/ScriptAssemblies/Tests.dll][suite]'
       name: Tests.dll
-      fullName: C:/Users/Aoife/Desktop/RWM1920-C00218374/Bubble Component/Library/ScriptAssemblies/Tests.dll
+      fullName: C:/Users/Aoife Powders/Desktop/RWM1920-C00218374/Bubble Component/Library/ScriptAssemblies/Tests.dll
       resultStatus: 2
-      duration: 0.0784058
+      duration: 0.1005829
       messages: One or more child tests had errors
       output: 
       stacktrace: 
@@ -386,7 +386,7 @@ MonoBehaviour:
       name: Tests
       fullName: Tests
       resultStatus: 2
-      duration: 0.0682545
+      duration: 0.0803091
       messages: One or more child tests had errors
       output: 
       stacktrace: 
@@ -395,12 +395,12 @@ MonoBehaviour:
       description: 
       isSuite: 1
       categories: []
-      parentID: '[C:/Users/Aoife/Desktop/RWM1920-C00218374/Bubble Component/Library/ScriptAssemblies/Tests.dll][suite]'
+      parentID: '[C:/Users/Aoife Powders/Desktop/RWM1920-C00218374/Bubble Component/Library/ScriptAssemblies/Tests.dll][suite]'
     - id: '[Tests][Tests.MovementTest][suite]'
       name: MovementTest
       fullName: Tests.MovementTest
       resultStatus: 2
-      duration: 0.0550688
+      duration: 2.240177
       messages: One or more child tests had errors
       output: 
       stacktrace: 
@@ -410,11 +410,26 @@ MonoBehaviour:
       isSuite: 1
       categories: []
       parentID: '[Tests][suite]'
+    - id: '[Tests][Tests.MovementTest.BubbleDestroyTestSimplePasses]'
+      name: BubbleDestroyTestSimplePasses
+      fullName: Tests.MovementTest.BubbleDestroyTestSimplePasses
+      resultStatus: 1
+      duration: 1.0930674
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentID: '[Tests][Tests.MovementTest][suite]'
     - id: '[Tests][Tests.MovementTest.MovementTestSimplePasses]'
       name: MovementTestSimplePasses
       fullName: Tests.MovementTest.MovementTestSimplePasses
       resultStatus: 1
-      duration: 0.0150713
+      duration: 0.0236295
       messages: 
       output: 
       stacktrace: 
@@ -429,14 +444,12 @@ MonoBehaviour:
       name: MovementTestWithEnumeratorPasses
       fullName: Tests.MovementTest.MovementTestWithEnumeratorPasses
       resultStatus: 2
-      duration: 0.0193411
-      messages: 'UnityEngine.UnityException : Tag: bubble is not defined.'
-      output: 
-      stacktrace: "  at (wrapper managed-to-native) UnityEngine.GameObject.FindGameObjectWithTag(string)\r\n
-        \ at Tests.MovementTest+<MovementTestWithEnumeratorPasses>d__2.MoveNext ()
-        [0x00020] in C:\\Users\\Aoife\\Desktop\\RWM1920-C00218374\\Bubble Component\\Assets\\Tests\\MovementTest.cs:27
-        \r\n  at UnityEngine.TestTools.TestEnumerator+<Execute>c__Iterator0.MoveNext
-        () [0x0004b] in C:\\buildslave\\unity\\build\\Extensions\\TestRunner\\UnityEngine.TestRunner\\NUnitExtensions\\Attributes\\TestEnumerator.cs:31 "
+      duration: 1.0924913
+      messages: 'Unhandled log message: ''[Exception] NullReferenceException: Object
+        reference not set to an instance of an object''. Use UnityEngine.TestTools.LogAssert.Expect'
+      output: "NullReferenceException: Object reference not set to an instance of
+        an object\r\n"
+      stacktrace: "BubbleMovement.OnDestroy () (at Assets/Test Scripts/BubbleMovement.cs:75)\r\n\r\n"
       notRunnable: 0
       ignoredOrSkipped: 0
       description: 
@@ -444,13 +457,92 @@ MonoBehaviour:
       categories:
       - Uncategorized
       parentID: '[Tests][Tests.MovementTest][suite]'
-    m_ResultText: MovementTestSimplePasses (0.015s)
-    m_ResultStacktrace: 
+    - id: '[Tests][Tests.PlayerTest][suite]'
+      name: PlayerTest
+      fullName: Tests.PlayerTest
+      resultStatus: 2
+      duration: 0.0566015
+      messages: One or more child tests had errors
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentID: '[Tests][suite]'
+    - id: '[Tests][Tests.PlayerTest.PlayerTestSimplePasses]'
+      name: PlayerTestSimplePasses
+      fullName: Tests.PlayerTest.PlayerTestSimplePasses
+      resultStatus: 2
+      duration: 0.0263939
+      messages: 'System.ArgumentException : The Object you want to instantiate is
+        null.'
+      output: 
+      stacktrace: "  at UnityEngine.Object.CheckNullArgument (System.Object arg, System.String
+        message) [0x00008] in C:\\buildslave\\unity\\build\\Runtime\\Export\\UnityEngineObject.bindings.cs:383
+        \r\n  at UnityEngine.Object.Instantiate[T] (T original) [0x0000c] in C:\\buildslave\\unity\\build\\Runtime\\Export\\UnityEngineObject.bindings.cs:274
+        \r\n  at Tests.PlayerTest.Setup () [0x00016] in C:\\Users\\Aoife Powders\\Desktop\\RWM1920-C00218374\\Bubble
+        Component\\Assets\\Tests\\PlayerTest.cs:18 \r\n  at (wrapper managed-to-native)
+        System.Reflection.MonoMethod.InternalInvoke(System.Reflection.MonoMethod,object,object[],System.Exception&)\r\n
+        \ at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags
+        invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo
+        culture) [0x00032] in <7ba07f088431485bb722f3b3373e87ee>:0 "
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentID: '[Tests][Tests.PlayerTest][suite]'
+    - id: '[Tests][Tests.PlayerTest.PlayerTestWithEnumeratorPasses]'
+      name: PlayerTestWithEnumeratorPasses
+      fullName: Tests.PlayerTest.PlayerTestWithEnumeratorPasses
+      resultStatus: 2
+      duration: 0.0144723
+      messages: 'System.ArgumentException : The Object you want to instantiate is
+        null.'
+      output: 
+      stacktrace: "  at UnityEngine.Object.CheckNullArgument (System.Object arg, System.String
+        message) [0x00008] in C:\\buildslave\\unity\\build\\Runtime\\Export\\UnityEngineObject.bindings.cs:383
+        \r\n  at UnityEngine.Object.Instantiate[T] (T original) [0x0000c] in C:\\buildslave\\unity\\build\\Runtime\\Export\\UnityEngineObject.bindings.cs:274
+        \r\n  at Tests.PlayerTest.Setup () [0x00016] in C:\\Users\\Aoife Powders\\Desktop\\RWM1920-C00218374\\Bubble
+        Component\\Assets\\Tests\\PlayerTest.cs:18 \r\n  at (wrapper managed-to-native)
+        System.Reflection.MonoMethod.InternalInvoke(System.Reflection.MonoMethod,object,object[],System.Exception&)\r\n
+        \ at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags
+        invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo
+        culture) [0x00032] in <7ba07f088431485bb722f3b3373e87ee>:0 "
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentID: '[Tests][Tests.PlayerTest][suite]'
+    m_ResultText: "PlayerTestSimplePasses (0.026s)\n---\nSystem.ArgumentException
+      : The Object you want to instantiate is null.\n---\nat UnityEngine.Object.CheckNullArgument
+      (System.Object arg, System.String message) [0x00008] in C:\\buildslave\\unity\\build\\Runtime\\Export\\UnityEngineObject.bindings.cs:383
+      \r\n  at UnityEngine.Object.Instantiate[T] (T original) [0x0000c] in C:\\buildslave\\unity\\build\\Runtime\\Export\\UnityEngineObject.bindings.cs:274
+      \r\n  at Tests.PlayerTest.Setup () [0x00016] in C:\\Users\\Aoife Powders\\Desktop\\RWM1920-C00218374\\Bubble
+      Component\\Assets\\Tests\\PlayerTest.cs:18 \r\n  at (wrapper managed-to-native)
+      System.Reflection.MonoMethod.InternalInvoke(System.Reflection.MonoMethod,object,object[],System.Exception&)\r\n
+      \ at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags
+      invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo
+      culture) [0x00032] in <7ba07f088431485bb722f3b3373e87ee>:0"
+    m_ResultStacktrace: "  at UnityEngine.Object.CheckNullArgument (System.Object
+      arg, System.String message) [0x00008] in C:\\buildslave\\unity\\build\\Runtime\\Export\\UnityEngineObject.bindings.cs:383
+      \r\n  at UnityEngine.Object.Instantiate[T] (T original) [0x0000c] in C:\\buildslave\\unity\\build\\Runtime\\Export\\UnityEngineObject.bindings.cs:274
+      \r\n  at Tests.PlayerTest.Setup () [0x00016] in C:\\Users\\Aoife Powders\\Desktop\\RWM1920-C00218374\\Bubble
+      Component\\Assets\\Tests\\PlayerTest.cs:18 \r\n  at (wrapper managed-to-native)
+      System.Reflection.MonoMethod.InternalInvoke(System.Reflection.MonoMethod,object,object[],System.Exception&)\r\n
+      \ at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags
+      invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo
+      culture) [0x00032] in <7ba07f088431485bb722f3b3373e87ee>:0 "
     m_TestListState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 6dabf11e
-      m_LastClickedID: 519154541
-      m_ExpandedIDs: 33ed80c4f8b9adcf3beef202bf30d261ffffff7f
+      m_SelectedIDs: 2d352659
+      m_LastClickedID: 1495676205
+      m_ExpandedIDs: 33ed80c4f8b9adcf3beef202ca94194bbf30d2616bcbbe77ffffff7f
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -473,7 +565,7 @@ MonoBehaviour:
       FailedHidden: 0
       NotRunHidden: 0
       m_SearchString: 
-      selectedCategoryMask: 0
+      selectedCategoryMask: -1
       availableCategories:
       - Uncategorized
   m_EditModeTestListGUI:
@@ -611,9 +703,9 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 404
-    y: 73
+    y: 72
     width: 958
-    height: 649
+    height: 650
   m_PersistentViewDataDictionary: {fileID: 0}
   m_MaximizeOnPlay: 0
   m_Gizmos: 0
@@ -625,10 +717,10 @@ MonoBehaviour:
     m_VRangeLocked: 0
     hZoomLockedByDefault: 0
     vZoomLockedByDefault: 0
-    m_HBaseRangeMin: -479
-    m_HBaseRangeMax: 479
-    m_VBaseRangeMin: -316
-    m_VBaseRangeMax: 316
+    m_HBaseRangeMin: -239.5
+    m_HBaseRangeMax: 239.5
+    m_VBaseRangeMin: -158.25
+    m_VBaseRangeMax: 158.25
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
@@ -637,7 +729,7 @@ MonoBehaviour:
     m_HSlider: 0
     m_VSlider: 0
     m_IgnoreScrollWheelUntilClicked: 0
-    m_EnableMouseInput: 0
+    m_EnableMouseInput: 1
     m_EnableSliderZoomHorizontal: 0
     m_EnableSliderZoomVertical: 0
     m_UniformScale: 1
@@ -647,24 +739,24 @@ MonoBehaviour:
       x: 0
       y: 17
       width: 958
-      height: 632
-    m_Scale: {x: 1, y: 1}
-    m_Translation: {x: 479, y: 316}
+      height: 633
+    m_Scale: {x: 2, y: 2}
+    m_Translation: {x: 479, y: 316.5}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -479
-      y: -316
-      width: 958
-      height: 632
+      x: -239.5
+      y: -158.25
+      width: 479
+      height: 316.5
     m_MinimalGUI: 1
-  m_defaultScale: 1
+  m_defaultScale: 2
   m_TargetTexture: {fileID: 0}
   m_CurrentColorSpace: 0
-  m_LastWindowPixelSize: {x: 958, y: 649}
+  m_LastWindowPixelSize: {x: 1916, y: 1300}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000000000000
@@ -691,16 +783,16 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 73
+    y: 72
     width: 402
-    height: 649
+    height: 650
   m_PersistentViewDataDictionary: {fileID: 0}
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 04f0ffff1ef0ffff88f0ffff26f1ffff40f1ffff94f1ffffaef1ffff1af2ffff54f2ffff6ef2ffffe0f2ffff56f3ffff78f7ffff
+      m_ExpandedIDs: 64fbffffd6fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -746,9 +838,9 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 404
-    y: 73
+    y: 72
     width: 958
-    height: 649
+    height: 650
   m_PersistentViewDataDictionary: {fileID: 0}
   m_WindowGUID: 2d0c23423c3374d4a96bc363ff640127
   m_SceneLighting: 1
@@ -756,9 +848,9 @@ MonoBehaviour:
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 6.5031295, y: -6.292858, z: -0.9287342}
+    m_Target: {x: 2.251222, y: -0.13865276, z: -0.07070212}
     speed: 2
-    m_Value: {x: 6.5031295, y: -6.292858, z: -0.9287342}
+    m_Value: {x: 2.251222, y: -0.13865276, z: -0.07070212}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -790,9 +882,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 103.07735
+    m_Target: 17.077112
     speed: 2
-    m_Value: 103.07735
+    m_Value: 17.077112
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -858,7 +950,7 @@ MonoBehaviour:
   m_PersistentViewDataDictionary: {fileID: 0}
   m_LockTracker:
     m_IsLocked: 0
-  m_LastSelectedObjectID: -6922
+  m_LastSelectedObjectID: -20340
 --- !u!114 &21
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -897,20 +989,20 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Tests
+    - Assets
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Tests
+  - Assets
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: C:\Users\Aoife\Desktop\RWM1920-C00218374\Bubble Component
+  m_LastProjectPath: C:\Users\Aoife Powders\Desktop\RWM1920-C00218374\Bubble Component
   m_LockTracker:
     m_IsLocked: 1
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: ec2f0000
-    m_LastClickedID: 12268
-    m_ExpandedIDs: 00000000642d0000e02f000000ca9a3b
+    scrollPos: {x: 0, y: 3}
+    m_SelectedIDs: 2a260000
+    m_LastClickedID: 9770
+    m_ExpandedIDs: 000000002a260000a22600002e2700001229000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -938,7 +1030,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000642d0000
+    m_ExpandedIDs: 000000002a260000a22600002e27000012290000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -963,8 +1055,8 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: f82f0000
-    m_LastClickedInstanceID: 12280
+    m_SelectedInstanceIDs: 
+    m_LastClickedInstanceID: 0
     m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c6230000d6cb0000d2630000543c0000d8420000f2420000
     m_RenameOverlay:
@@ -982,7 +1074,7 @@ MonoBehaviour:
       m_IsRenaming: 0
       m_OriginalEventType: 11
       m_IsRenamingFilename: 1
-      m_ClientGUIView: {fileID: 2}
+      m_ClientGUIView: {fileID: 12}
     m_CreateAssetUtility:
       m_EndAction: {fileID: 0}
       m_InstanceID: 0
@@ -1041,16 +1133,16 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 1366
-    y: 73
+    y: 72
     width: 552
-    height: 611
+    height: 482
   m_PersistentViewDataDictionary: {fileID: 0}
   m_ObjectsLockedBeforeSerialization: []
   m_InstanceIDsLockedBeforeSerialization: 
   m_LockTracker:
     m_IsLocked: 0
   m_PreviewResizer:
-    m_CachedPref: 261
+    m_CachedPref: -179
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
   m_PreviewWindow: {fileID: 0}

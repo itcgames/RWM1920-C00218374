@@ -17,7 +17,7 @@ GameObject:
   - component: {fileID: 4063709563999433033}
   - component: {fileID: 5434295944205621837}
   m_Layer: 0
-  m_Name: Bubble
+  m_Name: BubblePrefab
   m_TagString: Bubble
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -120,7 +120,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   particles: {fileID: 86501595489096523, guid: 7e599ccb5fdd5d448a68ee9768de853a, type: 3}
   speed: 100
-  maxTime: 5
+  maxTime: 2
   playerTag: Player
   bubbleSize: {x: 0.2, y: 0.2, z: 0.2}
   blowSpeed: {x: 0.005, y: 0.005, z: 0.005}

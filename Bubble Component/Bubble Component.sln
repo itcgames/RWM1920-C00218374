@@ -1,8 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{D08DF50D-9E9D-6F61-DE25-1BA97FB891FF}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "Tests.csproj", "{A472398A-3BCB-A641-5382-B9C3CA07B15A}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Filters", "Filters.csproj", "{91E95494-F6CD-E7B9-026C-DC5D011FB940}"
@@ -13,10 +11,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{D08DF50D-9E9D-6F61-DE25-1BA97FB891FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D08DF50D-9E9D-6F61-DE25-1BA97FB891FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D08DF50D-9E9D-6F61-DE25-1BA97FB891FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D08DF50D-9E9D-6F61-DE25-1BA97FB891FF}.Release|Any CPU.Build.0 = Release|Any CPU
 		{A472398A-3BCB-A641-5382-B9C3CA07B15A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{A472398A-3BCB-A641-5382-B9C3CA07B15A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A472398A-3BCB-A641-5382-B9C3CA07B15A}.Release|Any CPU.ActiveCfg = Release|Any CPU

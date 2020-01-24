@@ -9,29 +9,40 @@ namespace Tests
     public class MovementTest
     {
         GameObject bubble;
-        // A Test behaves as an ordinary method
+        GameObject particles;
+        [SetUp]
+        public void Setup()
+        {
+            bubble = MonoBehaviour.Instantiate(Resources.Load<GameObject>("Prefabs/BubblePrefab"));
+        }
+           
+        //should pass
         [Test]
         public void MovementTestSimplePasses()
         {
-            // Use the Assert class to test conditions
-            bool output = MovementFilter.getBubble();
-
-            Assert.AreEqual(false, output);
+            //is bubble in scene
+            Assert.IsNotNull(bubble);            
         }
 
-        // A UnityTest behaves like a coroutine in Play Mode. In Edit Mode you can use
-        // `yield return null;` to skip a frame.
+        //should pass
         [UnityTest]
         public IEnumerator MovementTestWithEnumeratorPasses()
         {
-            bubble = GameObject.FindGameObjectWithTag("bubble");
+            bubble.transform.position = new Vector2(10, 100);
             // Use the Assert class to test conditions.
             // Use yield to skip a frame.
-            Vector3 output = bubble.transform.position;
-            bool outputbool = MovementFilter.getBubble();
-            yield return new WaitForSeconds(5.0f);
+            float output = bubble.transform.position.y;
+            yield return new WaitForSeconds(1.0f);
+          
+            Assert.AreNotEqual(bubble.transform.position.y, output);
+        }
 
-            Assert.AreNotEqual(MovementFilter.getPosition(), output);
+        //should fail
+        [UnityTest]
+        public IEnumerator BubbleDestroyTestSimplePasses()
+        {
+            yield return new WaitForSeconds(1.0f);
+            Assert.IsNotNull(bubble);
         }
     }
 }
