@@ -120,7 +120,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   particles: {fileID: 86501595489096523, guid: 7e599ccb5fdd5d448a68ee9768de853a, type: 3}
   speed: 100
-  maxTime: 2
+  maxTime: 1
   playerTag: Player
   bubbleSize: {x: 0.2, y: 0.2, z: 0.2}
   blowSpeed: {x: 0.005, y: 0.005, z: 0.005}

@@ -42,8 +42,8 @@ MonoBehaviour:
     y: 501
     width: 554
     height: 446
-  m_MinSize: {x: 102, y: 124}
-  m_MaxSize: {x: 4002, y: 4024}
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 14}
   m_Panes:
   - {fileID: 14}
@@ -73,7 +73,7 @@ MonoBehaviour:
   m_MinSize: {x: 277, y: 198}
   m_MaxSize: {x: 4002, y: 8048}
   vertical: 1
-  controlID: 97
+  controlID: 112
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -96,7 +96,7 @@ MonoBehaviour:
     y: 0
     width: 1920
     height: 997
-  m_MinSize: {x: 950, y: 300}
+  m_MinSize: {x: 950, y: 548}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &5
 MonoBehaviour:
@@ -165,7 +165,7 @@ MonoBehaviour:
   m_MinSize: {x: 683, y: 498}
   m_MaxSize: {x: 14004, y: 14048}
   vertical: 0
-  controlID: 35
+  controlID: 14
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -190,7 +190,7 @@ MonoBehaviour:
   m_MinSize: {x: 406, y: 498}
   m_MaxSize: {x: 10002, y: 14048}
   vertical: 1
-  controlID: 36
+  controlID: 15
 --- !u!114 &9
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -215,7 +215,7 @@ MonoBehaviour:
   m_MinSize: {x: 406, y: 224}
   m_MaxSize: {x: 8006, y: 4024}
   vertical: 0
-  controlID: 37
+  controlID: 16
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -358,7 +358,7 @@ MonoBehaviour:
       name: Bubble Component
       fullName: Bubble Component
       resultStatus: 2
-      duration: 12.501707
+      duration: 12.533061
       messages: One or more child tests had errors
       output: 
       stacktrace: 
@@ -372,7 +372,7 @@ MonoBehaviour:
       name: Tests.dll
       fullName: C:/Users/Aoife/Desktop/RWM1920-C00218374/Bubble Component/Library/ScriptAssemblies/Tests.dll
       resultStatus: 2
-      duration: 12.396829
+      duration: 12.401159
       messages: One or more child tests had errors
       output: 
       stacktrace: 
@@ -386,7 +386,7 @@ MonoBehaviour:
       name: Tests
       fullName: Tests
       resultStatus: 2
-      duration: 12.378641
+      duration: 12.375383
       messages: One or more child tests had errors
       output: 
       stacktrace: 
@@ -400,7 +400,7 @@ MonoBehaviour:
       name: MovementTest
       fullName: Tests.MovementTest
       resultStatus: 2
-      duration: 2.1326525
+      duration: 2.1262689
       messages: One or more child tests had errors
       output: 
       stacktrace: 
@@ -413,11 +413,13 @@ MonoBehaviour:
     - id: '[Tests][Tests.MovementTest.BubbleDestroyTestSimplePasses]'
       name: BubbleDestroyTestSimplePasses
       fullName: Tests.MovementTest.BubbleDestroyTestSimplePasses
-      resultStatus: 1
-      duration: 1.054013
-      messages: 
-      output: 
-      stacktrace: 
+      resultStatus: 2
+      duration: 1.048395
+      messages: 'Unhandled log message: ''[Exception] NullReferenceException: Object
+        reference not set to an instance of an object''. Use UnityEngine.TestTools.LogAssert.Expect'
+      output: "NullReferenceException: Object reference not set to an instance of
+        an object\r\n"
+      stacktrace: "BubbleMovement.OnDestroy () (at Assets/Scripts/BubbleMovement.cs:75)\r\n\r\n"
       notRunnable: 0
       ignoredOrSkipped: 0
       description: 
@@ -429,7 +431,7 @@ MonoBehaviour:
       name: MovementTestSimplePasses
       fullName: Tests.MovementTest.MovementTestSimplePasses
       resultStatus: 1
-      duration: 0.0152261
+      duration: 0.0137006
       messages: 
       output: 
       stacktrace: 
@@ -444,11 +446,12 @@ MonoBehaviour:
       name: MovementTestWithEnumeratorPasses
       fullName: Tests.MovementTest.MovementTestWithEnumeratorPasses
       resultStatus: 2
-      duration: 1.04102
+      duration: 1.0380112
       messages: 'Unhandled log message: ''[Exception] NullReferenceException: Object
         reference not set to an instance of an object''. Use UnityEngine.TestTools.LogAssert.Expect'
       output: "NullReferenceException: Object reference not set to an instance of
-        an object\r\n"
+        an object\r\nNullReferenceException: Object reference not set to an instance
+        of an object\r\n"
       stacktrace: "BubbleMovement.OnDestroy () (at Assets/Scripts/BubbleMovement.cs:75)\r\n\r\n"
       notRunnable: 0
       ignoredOrSkipped: 0
@@ -461,7 +464,7 @@ MonoBehaviour:
       name: PlayerTest
       fullName: Tests.PlayerTest
       resultStatus: 2
-      duration: 5.184408
+      duration: 5.1862106
       messages: One or more child tests had errors
       output: 
       stacktrace: 
@@ -475,12 +478,13 @@ MonoBehaviour:
       name: PlayerDestroyTestWithEnumeratorPasses
       fullName: Tests.PlayerTest.PlayerDestroyTestWithEnumeratorPasses
       resultStatus: 2
-      duration: 5.038888
-      messages: 'Unhandled log message: ''[Exception] NullReferenceException: Object
-        reference not set to an instance of an object''. Use UnityEngine.TestTools.LogAssert.Expect'
-      output: "NullReferenceException: Object reference not set to an instance of
-        an object\r\n"
-      stacktrace: "BubbleMovement.OnDestroy () (at Assets/Scripts/BubbleMovement.cs:75)\r\n\r\n"
+      duration: 5.0412445
+      messages: "  Expected: null\r\n  But was:  <Player(Clone) (UnityEngine.GameObject)>\r\n"
+      output: 
+      stacktrace: "at Tests.PlayerTest+<PlayerDestroyTestWithEnumeratorPasses>d__4.MoveNext
+        () [0x00040] in C:\\Users\\Aoife\\Desktop\\RWM1920-C00218374\\Bubble Component\\Assets\\Tests\\PlayerTest.cs:38\r\nat
+        UnityEngine.TestTools.TestEnumerator+<Execute>c__Iterator0.MoveNext () [0x0004b]
+        in C:\\buildslave\\unity\\build\\Extensions\\TestRunner\\UnityEngine.TestRunner\\NUnitExtensions\\Attributes\\TestEnumerator.cs:31\r\n"
       notRunnable: 0
       ignoredOrSkipped: 0
       description: 
@@ -492,7 +496,7 @@ MonoBehaviour:
       name: PlayerTestWithEnumeratorPasses
       fullName: Tests.PlayerTest.PlayerTestWithEnumeratorPasses
       resultStatus: 1
-      duration: 0.1358189
+      duration: 0.1359034
       messages: 
       output: 
       stacktrace: 
@@ -507,7 +511,7 @@ MonoBehaviour:
       name: SimultaneousObjects
       fullName: Tests.SimultaneousObjects
       resultStatus: 1
-      duration: 5.043144
+      duration: 5.0435185
       messages: 
       output: 
       stacktrace: 
@@ -521,7 +525,7 @@ MonoBehaviour:
       name: SimultaneousObjectsWithEnumeratorPasses
       fullName: Tests.SimultaneousObjects.SimultaneousObjectsWithEnumeratorPasses
       resultStatus: 1
-      duration: 5.0369496
+      duration: 5.037186
       messages: 
       output: 
       stacktrace: 
@@ -532,16 +536,17 @@ MonoBehaviour:
       categories:
       - Uncategorized
       parentID: '[Tests][Tests.SimultaneousObjects][suite]'
-    m_ResultText: 'ObjectsWithEnumeratorPasses (0.000s)
-
-      ---
-
-      Method has non-void return value, but no result is expected'
-    m_ResultStacktrace: 
+    m_ResultText: "MovementTestWithEnumeratorPasses (1.038s)\n---\nUnhandled log message:
+      '[Exception] NullReferenceException: Object reference not set to an instance
+      of an object'. Use UnityEngine.TestTools.LogAssert.Expect\n---\nBubbleMovement.OnDestroy
+      () (at Assets/Scripts/BubbleMovement.cs:75)\n---\nNullReferenceException: Object
+      reference not set to an instance of an object\r\nNullReferenceException: Object
+      reference not set to an instance of an object"
+    m_ResultStacktrace: "BubbleMovement.OnDestroy () (at Assets/Scripts/BubbleMovement.cs:75)\r\n\r\n"
     m_TestListState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 9cdbd81c
-      m_LastClickedID: 483974044
+      m_SelectedIDs: 79b81f2e
+      m_LastClickedID: 773830777
       m_ExpandedIDs: 33ed80c4f8b9adcf3beef2024de08015ca94194bbf30d2616bcbbe77ffffff7f
       m_RenameOverlay:
         m_UserAcceptedRename: 0
@@ -790,9 +795,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
+      m_SelectedIDs: 6a240000
       m_LastClickedID: 0
-      m_ExpandedIDs: 0a92ffff2492ffff9c93fffff293ffff0c94ffff8895ffffe495fffffe95ffffc097ffff1a98ffff3498fffff699ffff509affff6a9affffcc9bffff249cffff3e9cffff9c9dfffff29dffff0c9effff249fffff7a9fffff949fffffa8a0ffffd0a0ffffeaa0ffff5ea1ffffb4a1ffffcea1ffffe6a2ffff3ea3ffff58a3ffffaca4ffff04a5ffff1ea5ffff08a7ffff68a7ffffe2a7ffff06a8ffff20a8ffffa2a9ffffc8a9ffffe2a9ffff64abffff8eabffffa8abffff2aadffff68b6ffff82b6ffff08b8ffff60b8ffff7ab8fffffcb9ffff20baffff3abaffffeabaffff40bbffff5abbfffff8bbffff22bcffff3cbcffffbabdffff10beffff2abeffffa8bffffffebfffff18c0ffffcec1fffff6c1ffff10c2ffff96c2fffff0c2ffff1ac3ffff34c3ffffbac4ffff10c5ffff2ac5ffffaac6ffffcec6ffffe8c6ffff66c8ffffc2c8ffffdcc8ffffdec9ffff74cdffff8ecdffff10ceffff5aceffff74cefffff2ceffff36cfffff50cfffffcecfffff12d0ffff2cd0ffffaad0ffffc0d0ffffdad0ffff5cd1ffffa6d1ffffc0d1ffff66d2ffff7ed2ffff98d2ffff3ed3ffff82d3ffff9cd3ffff3ed4ffff84d4ffff9ed4ffff58d5ffffa0d5ffffbad5ffff74d6ffff86d6ffffa0d6ffff5ad7ffffa8d7ffffc2d7ffff7cd8ffffc2d8ffffdcd8ffff84d9ffffe4d9ffff28daffff42daffff30dbffff74dbffff8edbffff80dcffff94dcffffaedcffffa4ddffffe8ddffff02deffffa6deffffbadeffffd4defffffadfffff3ee1ffff58e1ffff80e2ffff94e2ffffaee2ffff66e3ffff44e6ffff5ee6ffff02e7ffff9ce7ffffb6e7ffff2ae8ffff40e8ffff5ae8ffffcee8ffff12e9ffff2ce9ffffbce9ffff00eaffff1aeaffffaaeaffffeeeaffff08ebffffaeebfffff2ebffff0cecffff76ecffffc2ecffffdcecffff4eedffff3ceeffff56eeffffe6eeffff68efffff82efffff0ef0ffff5af0ffff74f0ffff00f1ffff16f1ffff30f1ffffa4f1ffffb6f1ffffd0f1ffff44f2ffff5af2ffff74f2ffffe8f2ffff30f3ffff4af3ffff32f4ffff7af4ffff94f4ffff80f5ffffc8f5ffffdaf5ffffbcf6ffff18f7ffff
+      m_ExpandedIDs: 04f8ffff1ef8ffffa2f9ffffd6fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -989,20 +994,20 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Resources/Prefabs
+    - Assets/Tests
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Resources/Prefabs
+  - Assets/Tests
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\Aoife\Desktop\RWM1920-C00218374\Bubble Component
   m_LockTracker:
     m_IsLocked: 1
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 802e0000
-    m_LastClickedID: 11904
-    m_ExpandedIDs: 00000000a02d0000062e0000822e00002430000000ca9a3b
+    m_SelectedIDs: 92270000
+    m_LastClickedID: 10130
+    m_ExpandedIDs: 000000002e2600009c260000262700003a29000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1030,7 +1035,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000a02d0000062e0000822e000024300000
+    m_ExpandedIDs: 000000002e2600009c260000262700003a290000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
