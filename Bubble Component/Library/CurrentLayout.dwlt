@@ -21,7 +21,7 @@ MonoBehaviour:
   m_ShowMode: 4
   m_Title: 
   m_RootView: {fileID: 4}
-  m_MinSize: {x: 950, y: 548}
+  m_MinSize: {x: 950, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &2
 MonoBehaviour:
@@ -73,7 +73,7 @@ MonoBehaviour:
   m_MinSize: {x: 277, y: 198}
   m_MaxSize: {x: 4002, y: 8048}
   vertical: 1
-  controlID: 112
+  controlID: 76
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -96,7 +96,7 @@ MonoBehaviour:
     y: 0
     width: 1920
     height: 997
-  m_MinSize: {x: 950, y: 548}
+  m_MinSize: {x: 950, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &5
 MonoBehaviour:
@@ -165,7 +165,7 @@ MonoBehaviour:
   m_MinSize: {x: 683, y: 498}
   m_MaxSize: {x: 14004, y: 14048}
   vertical: 0
-  controlID: 14
+  controlID: 55
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -190,7 +190,7 @@ MonoBehaviour:
   m_MinSize: {x: 406, y: 498}
   m_MaxSize: {x: 10002, y: 14048}
   vertical: 1
-  controlID: 15
+  controlID: 56
 --- !u!114 &9
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -215,7 +215,7 @@ MonoBehaviour:
   m_MinSize: {x: 406, y: 224}
   m_MaxSize: {x: 8006, y: 4024}
   vertical: 0
-  controlID: 16
+  controlID: 57
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -358,7 +358,7 @@ MonoBehaviour:
       name: Bubble Component
       fullName: Bubble Component
       resultStatus: 2
-      duration: 12.533061
+      duration: 1.1894712
       messages: One or more child tests had errors
       output: 
       stacktrace: 
@@ -372,7 +372,7 @@ MonoBehaviour:
       name: Tests.dll
       fullName: C:/Users/Aoife/Desktop/RWM1920-C00218374/Bubble Component/Library/ScriptAssemblies/Tests.dll
       resultStatus: 2
-      duration: 12.401159
+      duration: 1.0957206
       messages: One or more child tests had errors
       output: 
       stacktrace: 
@@ -386,7 +386,7 @@ MonoBehaviour:
       name: Tests
       fullName: Tests
       resultStatus: 2
-      duration: 12.375383
+      duration: 1.0830154
       messages: One or more child tests had errors
       output: 
       stacktrace: 
@@ -400,7 +400,7 @@ MonoBehaviour:
       name: MovementTest
       fullName: Tests.MovementTest
       resultStatus: 2
-      duration: 2.1262689
+      duration: 1.0738971
       messages: One or more child tests had errors
       output: 
       stacktrace: 
@@ -446,12 +446,11 @@ MonoBehaviour:
       name: MovementTestWithEnumeratorPasses
       fullName: Tests.MovementTest.MovementTestWithEnumeratorPasses
       resultStatus: 2
-      duration: 1.0380112
+      duration: 1.0528768
       messages: 'Unhandled log message: ''[Exception] NullReferenceException: Object
         reference not set to an instance of an object''. Use UnityEngine.TestTools.LogAssert.Expect'
       output: "NullReferenceException: Object reference not set to an instance of
-        an object\r\nNullReferenceException: Object reference not set to an instance
-        of an object\r\n"
+        an object\r\n"
       stacktrace: "BubbleMovement.OnDestroy () (at Assets/Scripts/BubbleMovement.cs:75)\r\n\r\n"
       notRunnable: 0
       ignoredOrSkipped: 0
@@ -536,12 +535,20 @@ MonoBehaviour:
       categories:
       - Uncategorized
       parentID: '[Tests][Tests.SimultaneousObjects][suite]'
-    m_ResultText: "MovementTestWithEnumeratorPasses (1.038s)\n---\nUnhandled log message:
-      '[Exception] NullReferenceException: Object reference not set to an instance
-      of an object'. Use UnityEngine.TestTools.LogAssert.Expect\n---\nBubbleMovement.OnDestroy
-      () (at Assets/Scripts/BubbleMovement.cs:75)\n---\nNullReferenceException: Object
-      reference not set to an instance of an object\r\nNullReferenceException: Object
-      reference not set to an instance of an object"
+    m_ResultText: 'MovementTestWithEnumeratorPasses (1.053s)
+
+      ---
+
+      Unhandled log message: ''[Exception] NullReferenceException: Object reference
+      not set to an instance of an object''. Use UnityEngine.TestTools.LogAssert.Expect
+
+      ---
+
+      BubbleMovement.OnDestroy () (at Assets/Scripts/BubbleMovement.cs:75)
+
+      ---
+
+      NullReferenceException: Object reference not set to an instance of an object'
     m_ResultStacktrace: "BubbleMovement.OnDestroy () (at Assets/Scripts/BubbleMovement.cs:75)\r\n\r\n"
     m_TestListState:
       scrollPos: {x: 0, y: 0}
@@ -795,9 +802,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 6a240000
+      m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 04f8ffff1ef8ffffa2f9ffffd6fbffff
+      m_ExpandedIDs: eef9ffff08faffff86faffffaefaffffc8faffff5afbffffd6fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 

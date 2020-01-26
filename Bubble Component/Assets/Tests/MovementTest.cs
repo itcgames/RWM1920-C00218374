@@ -28,7 +28,7 @@ namespace Tests
         {
             bubble.transform.position = new Vector2(10, 100);
             float output = bubble.transform.position.y;
-            yield return new WaitForSeconds(1.0f);
+            yield return new WaitForSeconds(2.0f);
           
             Assert.AreNotEqual(bubble.transform.position.y, output);
         }
