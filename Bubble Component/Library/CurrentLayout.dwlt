@@ -21,7 +21,7 @@ MonoBehaviour:
   m_ShowMode: 4
   m_Title: 
   m_RootView: {fileID: 4}
-  m_MinSize: {x: 950, y: 300}
+  m_MinSize: {x: 950, y: 548}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &2
 MonoBehaviour:
@@ -40,7 +40,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 501
-    width: 554
+    width: 637
     height: 446
   m_MinSize: {x: 100, y: 100}
   m_MaxSize: {x: 4000, y: 4000}
@@ -66,14 +66,14 @@ MonoBehaviour:
   - {fileID: 2}
   m_Position:
     serializedVersion: 2
-    x: 1366
+    x: 1283
     y: 0
-    width: 554
+    width: 637
     height: 947
   m_MinSize: {x: 277, y: 198}
   m_MaxSize: {x: 4002, y: 8048}
   vertical: 1
-  controlID: 76
+  controlID: 35
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -96,7 +96,7 @@ MonoBehaviour:
     y: 0
     width: 1920
     height: 997
-  m_MinSize: {x: 950, y: 300}
+  m_MinSize: {x: 950, y: 548}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &5
 MonoBehaviour:
@@ -165,7 +165,7 @@ MonoBehaviour:
   m_MinSize: {x: 683, y: 498}
   m_MaxSize: {x: 14004, y: 14048}
   vertical: 0
-  controlID: 55
+  controlID: 14
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -185,12 +185,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1366
+    width: 1283
     height: 947
   m_MinSize: {x: 406, y: 498}
   m_MaxSize: {x: 10002, y: 14048}
   vertical: 1
-  controlID: 56
+  controlID: 15
 --- !u!114 &9
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -210,12 +210,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1366
+    width: 1283
     height: 668
   m_MinSize: {x: 406, y: 224}
   m_MaxSize: {x: 8006, y: 4024}
   vertical: 0
-  controlID: 57
+  controlID: 16
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -233,7 +233,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 404
+    width: 377
     height: 668
   m_MinSize: {x: 202, y: 224}
   m_MaxSize: {x: 4002, y: 4024}
@@ -257,9 +257,9 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 404
+    x: 377
     y: 0
-    width: 962
+    width: 906
     height: 668
   m_MinSize: {x: 204, y: 224}
   m_MaxSize: {x: 4004, y: 4024}
@@ -289,7 +289,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 668
-    width: 1366
+    width: 1283
     height: 279
   m_MinSize: {x: 232, y: 274}
   m_MaxSize: {x: 10002, y: 10024}
@@ -316,7 +316,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 554
+    width: 637
     height: 501
   m_MinSize: {x: 277, y: 74}
   m_MaxSize: {x: 4002, y: 4024}
@@ -345,9 +345,9 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1366
+    x: 1283
     y: 574
-    width: 552
+    width: 635
     height: 426
   m_PersistentViewDataDictionary: {fileID: 0}
   m_TestTypeToolbarIndex: 0
@@ -358,7 +358,7 @@ MonoBehaviour:
       name: Bubble Component
       fullName: Bubble Component
       resultStatus: 2
-      duration: 1.1894712
+      duration: 12.040157
       messages: One or more child tests had errors
       output: 
       stacktrace: 
@@ -372,7 +372,7 @@ MonoBehaviour:
       name: Tests.dll
       fullName: C:/Users/Aoife/Desktop/RWM1920-C00218374/Bubble Component/Library/ScriptAssemblies/Tests.dll
       resultStatus: 2
-      duration: 1.0957206
+      duration: 11.922153
       messages: One or more child tests had errors
       output: 
       stacktrace: 
@@ -386,7 +386,7 @@ MonoBehaviour:
       name: Tests
       fullName: Tests
       resultStatus: 2
-      duration: 1.0830154
+      duration: 11.899169
       messages: One or more child tests had errors
       output: 
       stacktrace: 
@@ -400,7 +400,7 @@ MonoBehaviour:
       name: MovementTest
       fullName: Tests.MovementTest
       resultStatus: 2
-      duration: 1.0738971
+      duration: 1.6398453
       messages: One or more child tests had errors
       output: 
       stacktrace: 
@@ -414,7 +414,7 @@ MonoBehaviour:
       name: BubbleDestroyTestSimplePasses
       fullName: Tests.MovementTest.BubbleDestroyTestSimplePasses
       resultStatus: 2
-      duration: 1.048395
+      duration: 1.0567944
       messages: 'Unhandled log message: ''[Exception] NullReferenceException: Object
         reference not set to an instance of an object''. Use UnityEngine.TestTools.LogAssert.Expect'
       output: "NullReferenceException: Object reference not set to an instance of
@@ -431,7 +431,7 @@ MonoBehaviour:
       name: MovementTestSimplePasses
       fullName: Tests.MovementTest.MovementTestSimplePasses
       resultStatus: 1
-      duration: 0.0137006
+      duration: 0.0190298
       messages: 
       output: 
       stacktrace: 
@@ -445,13 +445,11 @@ MonoBehaviour:
     - id: '[Tests][Tests.MovementTest.MovementTestWithEnumeratorPasses]'
       name: MovementTestWithEnumeratorPasses
       fullName: Tests.MovementTest.MovementTestWithEnumeratorPasses
-      resultStatus: 2
-      duration: 1.0528768
-      messages: 'Unhandled log message: ''[Exception] NullReferenceException: Object
-        reference not set to an instance of an object''. Use UnityEngine.TestTools.LogAssert.Expect'
-      output: "NullReferenceException: Object reference not set to an instance of
-        an object\r\n"
-      stacktrace: "BubbleMovement.OnDestroy () (at Assets/Scripts/BubbleMovement.cs:75)\r\n\r\n"
+      resultStatus: 1
+      duration: 0.5414257
+      messages: 
+      output: 
+      stacktrace: 
       notRunnable: 0
       ignoredOrSkipped: 0
       description: 
@@ -463,7 +461,7 @@ MonoBehaviour:
       name: PlayerTest
       fullName: Tests.PlayerTest
       resultStatus: 2
-      duration: 5.1862106
+      duration: 5.1944637
       messages: One or more child tests had errors
       output: 
       stacktrace: 
@@ -477,13 +475,12 @@ MonoBehaviour:
       name: PlayerDestroyTestWithEnumeratorPasses
       fullName: Tests.PlayerTest.PlayerDestroyTestWithEnumeratorPasses
       resultStatus: 2
-      duration: 5.0412445
-      messages: "  Expected: null\r\n  But was:  <Player(Clone) (UnityEngine.GameObject)>\r\n"
-      output: 
-      stacktrace: "at Tests.PlayerTest+<PlayerDestroyTestWithEnumeratorPasses>d__4.MoveNext
-        () [0x00040] in C:\\Users\\Aoife\\Desktop\\RWM1920-C00218374\\Bubble Component\\Assets\\Tests\\PlayerTest.cs:38\r\nat
-        UnityEngine.TestTools.TestEnumerator+<Execute>c__Iterator0.MoveNext () [0x0004b]
-        in C:\\buildslave\\unity\\build\\Extensions\\TestRunner\\UnityEngine.TestRunner\\NUnitExtensions\\Attributes\\TestEnumerator.cs:31\r\n"
+      duration: 5.0448585
+      messages: 'Unhandled log message: ''[Exception] NullReferenceException: Object
+        reference not set to an instance of an object''. Use UnityEngine.TestTools.LogAssert.Expect'
+      output: "NullReferenceException: Object reference not set to an instance of
+        an object\r\n"
+      stacktrace: "BubbleMovement.OnDestroy () (at Assets/Scripts/BubbleMovement.cs:75)\r\n\r\n"
       notRunnable: 0
       ignoredOrSkipped: 0
       description: 
@@ -495,7 +492,7 @@ MonoBehaviour:
       name: PlayerTestWithEnumeratorPasses
       fullName: Tests.PlayerTest.PlayerTestWithEnumeratorPasses
       resultStatus: 1
-      duration: 0.1359034
+      duration: 0.1384743
       messages: 
       output: 
       stacktrace: 
@@ -510,7 +507,7 @@ MonoBehaviour:
       name: SimultaneousObjects
       fullName: Tests.SimultaneousObjects
       resultStatus: 1
-      duration: 5.0435185
+      duration: 5.046729
       messages: 
       output: 
       stacktrace: 
@@ -524,7 +521,7 @@ MonoBehaviour:
       name: SimultaneousObjectsWithEnumeratorPasses
       fullName: Tests.SimultaneousObjects.SimultaneousObjectsWithEnumeratorPasses
       resultStatus: 1
-      duration: 5.037186
+      duration: 5.0387707
       messages: 
       output: 
       stacktrace: 
@@ -535,21 +532,8 @@ MonoBehaviour:
       categories:
       - Uncategorized
       parentID: '[Tests][Tests.SimultaneousObjects][suite]'
-    m_ResultText: 'MovementTestWithEnumeratorPasses (1.053s)
-
-      ---
-
-      Unhandled log message: ''[Exception] NullReferenceException: Object reference
-      not set to an instance of an object''. Use UnityEngine.TestTools.LogAssert.Expect
-
-      ---
-
-      BubbleMovement.OnDestroy () (at Assets/Scripts/BubbleMovement.cs:75)
-
-      ---
-
-      NullReferenceException: Object reference not set to an instance of an object'
-    m_ResultStacktrace: "BubbleMovement.OnDestroy () (at Assets/Scripts/BubbleMovement.cs:75)\r\n\r\n"
+    m_ResultText: MovementTestWithEnumeratorPasses (0.541s)
+    m_ResultStacktrace: 
     m_TestListState:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 79b81f2e
@@ -714,9 +698,9 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 404
+    x: 377
     y: 73
-    width: 958
+    width: 902
     height: 648
   m_PersistentViewDataDictionary: {fileID: 0}
   m_MaximizeOnPlay: 0
@@ -729,8 +713,8 @@ MonoBehaviour:
     m_VRangeLocked: 0
     hZoomLockedByDefault: 0
     vZoomLockedByDefault: 0
-    m_HBaseRangeMin: -479
-    m_HBaseRangeMax: 479
+    m_HBaseRangeMin: -451
+    m_HBaseRangeMax: 451
     m_VBaseRangeMin: -315.5
     m_VBaseRangeMax: 315.5
     m_HAllowExceedBaseRangeMin: 1
@@ -750,25 +734,25 @@ MonoBehaviour:
       serializedVersion: 2
       x: 0
       y: 17
-      width: 958
+      width: 902
       height: 631
     m_Scale: {x: 1, y: 1}
-    m_Translation: {x: 479, y: 315.5}
+    m_Translation: {x: 451, y: 315.5}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -479
+      x: -451
       y: -315.5
-      width: 958
+      width: 902
       height: 631
     m_MinimalGUI: 1
   m_defaultScale: 1
   m_TargetTexture: {fileID: 0}
   m_CurrentColorSpace: 0
-  m_LastWindowPixelSize: {x: 958, y: 648}
+  m_LastWindowPixelSize: {x: 902, y: 648}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000000000000
@@ -796,15 +780,15 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 73
-    width: 402
+    width: 375
     height: 648
   m_PersistentViewDataDictionary: {fileID: 0}
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
-      m_LastClickedID: 0
-      m_ExpandedIDs: eef9ffff08faffff86faffffaefaffffc8faffff5afbffffd6fbffff
+      m_SelectedIDs: 04f2ffff
+      m_LastClickedID: -3580
+      m_ExpandedIDs: 0ef2ffff28f2ffffaef3ffffd2f3ffffecf3ffff6af5ffff92f5ffffacf5ffff20f6ffff76f6ffff90f6ffff12f7ffffcaf7ffffe4f7fffffaf8ffff1ef9ffff38f9ffffbaf9ffffdef9fffff8f9ffff7afaffffa2faffffbcfaffff52fbffffd6fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -849,9 +833,9 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 404
+    x: 377
     y: 73
-    width: 958
+    width: 902
     height: 648
   m_PersistentViewDataDictionary: {fileID: 0}
   m_WindowGUID: 2d0c23423c3374d4a96bc363ff640127
@@ -860,9 +844,9 @@ MonoBehaviour:
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 10.28525, y: 28.834677, z: -0.921875}
+    m_Target: {x: 12.554728, y: 101.70386, z: -0.2421875}
     speed: 2
-    m_Value: {x: 10.28525, y: 28.834677, z: -0.921875}
+    m_Value: {x: 12.554728, y: 101.70386, z: -0.2421875}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -894,9 +878,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 101.62567
+    m_Target: 33.88067
     speed: 2
-    m_Value: 101.62567
+    m_Value: 33.88067
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -986,7 +970,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 741
-    width: 1364
+    width: 1281
     height: 259
   m_PersistentViewDataDictionary: {fileID: 0}
   m_SearchFilter:
@@ -1144,9 +1128,9 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1366
+    x: 1283
     y: 73
-    width: 552
+    width: 635
     height: 481
   m_PersistentViewDataDictionary: {fileID: 0}
   m_ObjectsLockedBeforeSerialization: []
